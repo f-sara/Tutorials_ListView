@@ -16,7 +16,7 @@ class ReminderListViewController: UICollectionViewController {
         collectionView.collectionViewLayout = listLayout
 
         let cellRegistration = UICollectionView.CellRegistration {
-            (cell: UICollectionViewCell, indexPath: IndexPath, itemIdentifier: String) in
+            (cell: UICollectionViewListCell, indexPath: IndexPath, itemIdentifier: String) in
             let reminder = Reminder.sampleData[indexPath.item]
             var contentConfiguration = cell.defaultBackgroundConfiguration()
         }
