@@ -13,6 +13,7 @@
 		8BBC8AC62AD0374500EEF347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC8AC42AD0374500EEF347 /* Main.storyboard */; };
 		8BBC8AC82AD0374700EEF347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC8AC72AD0374700EEF347 /* Assets.xcassets */; };
 		8BBC8ACB2AD0374700EEF347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC8AC92AD0374700EEF347 /* LaunchScreen.storyboard */; };
+		8BBC8AD72AD2548700EEF347 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC8AD62AD2548700EEF347 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8BBC8AC72AD0374700EEF347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BBC8ACA2AD0374700EEF347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BBC8ACC2AD0374700EEF347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBC8AD62AD2548700EEF347 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8BBC8ABD2AD0374500EEF347 /* Tutorials_ListView */ = {
 			isa = PBXGroup;
 			children = (
+				8BBC8AD52AD2545200EEF347 /* Models */,
 				8BBC8ABE2AD0374500EEF347 /* AppDelegate.swift */,
 				8BBC8AC02AD0374500EEF347 /* SceneDelegate.swift */,
 				8BBC8AC22AD0374500EEF347 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				8BBC8ACC2AD0374700EEF347 /* Info.plist */,
 			);
 			path = Tutorials_ListView;
+			sourceTree = "<group>";
+		};
+		8BBC8AD52AD2545200EEF347 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BBC8AD62AD2548700EEF347 /* Reminder.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				8BBC8AC32AD0374500EEF347 /* ViewController.swift in Sources */,
 				8BBC8ABF2AD0374500EEF347 /* AppDelegate.swift in Sources */,
 				8BBC8AC12AD0374500EEF347 /* SceneDelegate.swift in Sources */,
+				8BBC8AD72AD2548700EEF347 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
